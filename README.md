@@ -12,7 +12,7 @@ styleguide.
 1. Install ESLint, this config and required plugins:
 
    ```console
-   npm i -D eslint eslint-config-metarhia
+   npm i -D eslint eslint-plugin-import eslint-config-metarhia
    ```
 
 2. Add `"extends": "metarhia"` to your `.eslintrc`.

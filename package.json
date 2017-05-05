@@ -37,12 +37,14 @@
     "@commitlint/cli": "^3.2.0",
     "@commitlint/config-angular": "^3.1.1",
     "eslint": "^4.6.1",
+    "eslint-plugin-import": "^2.7.0",
     "husky": "^0.14.3",
     "remark-cli": "^4.0.0",
     "remark-preset-lint-metarhia": "^1.0.1",
     "standard-version": "^4.2.0"
   },
   "peerDependencies": {
-    "eslint": "^4.6.1"
+    "eslint": "^4.6.1",
+    "eslint-plugin-import": "^2.7.0"
   }
 }
