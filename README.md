@@ -2,10 +2,8 @@
 
 [![Build Status][travis-badge]][travis-url]
 
-Opinionated [ESLint][] config, originated in [metarhia-jstp][], spread all over
-the [Metarhia][] repos, and decoupled into a separate and shareable one for
-ease of updating and synchronization.  This is our de-facto JavaScript
-styleguide.
+Opinionated [ESLint][] config and de-facto JavaScript styleguide for
+[Metarhia][] projects.
 
 ## Usage
 
@@ -48,6 +46,5 @@ MIT. See the [LICENSE][] file for details.
 [ESLint]: https://eslint.org/
 [LICENSE]: LICENSE
 [Metarhia]: https://github.com/metarhia
-[metarhia-jstp]: https://github.com/metarhia/jstp
 [travis-badge]: https://travis-ci.org/metarhia/eslint-config-metarhia.svg?branch=master
 [travis-url]: https://travis-ci.org/metarhia/eslint-config-metarhia
