@@ -1,0 +1,48 @@
+{
+  "name": "eslint-config-metarhia",
+  "version": "1.0.0-pre",
+  "description": "ESLint config for Metarhia projects",
+  "main": "index.js",
+  "scripts": {
+    "commitmsg": "commitlint -e",
+    "lint": "npm run -s lint-js && npm run -s lint-md",
+    "lint-js": "eslint .",
+    "lint-md": "remark --quiet .",
+    "test": "npm run -s lint",
+    "test-ci": "npm test && ./scripts/lint-commit-ci.sh",
+    "precommit": "npm test",
+    "release": "standard-version"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/metarhia/eslint-config-metarhia.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "lint",
+    "linter",
+    "config",
+    "preset",
+    "metarhia"
+  ],
+  "author": "Alexey Orlenko <eaglexrlnk@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/metarhia/eslint-config-metarhia/issues"
+  },
+  "homepage": "https://github.com/metarhia/eslint-config-metarhia#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@commitlint/cli": "^3.2.0",
+    "@commitlint/config-angular": "^3.1.1",
+    "eslint": "^4.6.1",
+    "husky": "^0.14.3",
+    "remark-cli": "^4.0.0",
+    "remark-preset-lint-metarhia": "^1.0.1",
+    "standard-version": "^4.2.0"
+  },
+  "peerDependencies": {
+    "eslint": "^4.6.1"
+  }
+}
