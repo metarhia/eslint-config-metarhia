@@ -25,7 +25,7 @@ commit message isn't lost, you can still find it in `.git/COMMIT_EDITMSG`).
 
 ### Releasing
 
-Collaborators can relese new versions using
+Collaborators can release new versions using
 
 ```console
 npm run release
