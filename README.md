@@ -1,8 +1,7 @@
 # eslint-config-metarhia
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/metarhia/eslint-config-metarhia.svg)](https://greenkeeper.io/)
-
 [![Build Status][travis-badge]][travis-url]
+[![Greenkeeper badge](https://badges.greenkeeper.io/metarhia/eslint-config-metarhia.svg)](https://greenkeeper.io/)
 
 Opinionated [ESLint][] config and de-facto JavaScript styleguide for
 [Metarhia][] projects.
