@@ -46,6 +46,10 @@ module.exports = {
     'eol-last': [
       'error',
     ],
+    'implicit-arrow-linebreak': [
+      'error',
+      'beside',
+    ],
     'func-call-spacing': [
       'error',
       'never',
