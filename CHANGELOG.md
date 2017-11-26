@@ -2,6 +2,55 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="2.0.0"></a>
+# [2.0.0](https://github.com/metarhia/eslint-config-metarhia/compare/v1.0.1...v2.0.0) (2017-11-26)
+
+
+### Features
+
+* **rules:** add implicit-arrow-linebreak rule ([75748ff](https://github.com/metarhia/eslint-config-metarhia/commit/75748ff))
+
+
+### BREAKING CHANGES
+
+* **rules:** before this change, if `doSomething()` in the following
+  snippet of code
+
+  ```js
+  const fn = () => doSomething();
+  ```
+
+  could not fit on one line, both
+
+  ```js
+  const fn = () => (
+    doSomething()
+  );
+  ```
+
+  and
+
+  ```js
+  const fn = () =>
+    doSomething();
+  ```
+
+  would be valid from the point of view of ESLint.
+
+  After this change, only
+
+  ```js
+  const fn = () => (
+    doSomething()
+  );
+  ```
+
+  is valid.
+
+  Also, it is required to update ESLint.
+
+
+
 <a name="1.0.1"></a>
 ## [1.0.1](https://github.com/metarhia/eslint-config-metarhia/compare/v1.0.0...v1.0.1) (2017-09-25)
 
