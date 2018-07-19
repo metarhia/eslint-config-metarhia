@@ -2,6 +2,24 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="3.0.0"></a>
+# [3.0.0](https://github.com/metarhia/eslint-config-metarhia/compare/v2.0.0...v3.0.0) (2018-07-19)
+
+
+### Features
+
+* **eslint:** upgrade to ESLint 5 ([a4ee615](https://github.com/metarhia/eslint-config-metarhia/commit/a4ee615))
+
+
+### BREAKING CHANGES
+
+* **eslint:** drop support for ESLint 4 and move to ESLint 5 being
+the peerDependency, consequently enabling two new rules by default (see
+https://eslint.org/docs/user-guide/migrating-to-5.0.0#eslint-recommended-changes
+for details).
+
+
+
 <a name="2.0.0"></a>
 # [2.0.0](https://github.com/metarhia/eslint-config-metarhia/compare/v1.0.1...v2.0.0) (2017-11-26)
 
