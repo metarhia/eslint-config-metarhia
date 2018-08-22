@@ -2,6 +2,65 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="4.0.0"></a>
+# [4.0.0](https://github.com/metarhia/eslint-config-metarhia/compare/v3.0.0...v4.0.0) (2018-08-22)
+
+
+### Features
+
+* **rules:** omit arrow function parens unless they are necessary ([#11](https://github.com/metarhia/eslint-config-metarhia/issues/11)) ([16d56e4](https://github.com/metarhia/eslint-config-metarhia/commit/16d56e4))
+
+
+### BREAKING CHANGES
+
+* **rules:** previously, only arrow functions consisting of a single
+expression were allowed to omit parentheses around the parameter list
+(and required to, if there's only one parameter in the list).  After
+this change, the parens are only allowed when they are required
+syntactically.
+
+Before:
+
+```js
+const f = x => x;
+
+const g = (x, y) => x + y;
+
+const h = (x) => {
+  console.log(x);
+};
+
+const i = (x, f) => {
+  f(x);
+};
+```
+
+After:
+
+```js
+// Not affected
+const f = x => x;
+
+// Not affected
+const g = (x, y) => x + y;
+
+// AFFECTED
+const h = x => {
+  console.log(x);
+};
+
+// Not affected
+const i = (x, f) => {
+  f(x);
+};
+```
+
+This rule is fixable via `eslint --fix`.
+
+Refs: https://github.com/metarhia/Metarhia/issues/22
+
+
+
 <a name="3.0.0"></a>
 # [3.0.0](https://github.com/metarhia/eslint-config-metarhia/compare/v2.0.0...v3.0.0) (2018-07-19)
 
