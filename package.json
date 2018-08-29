@@ -34,7 +34,7 @@
   "homepage": "https://github.com/metarhia/eslint-config-metarhia#readme",
   "dependencies": {},
   "devDependencies": {
-    "@commitlint/cli": "^6.0.0",
+    "@commitlint/cli": "^7.1.0",
     "@commitlint/config-angular": "^4.3.0",
     "eslint": "^5.1.0",
     "eslint-plugin-import": "^2.13.0",
