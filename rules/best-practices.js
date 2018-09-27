@@ -18,5 +18,10 @@ module.exports = {
     'no-useless-concat': [
       'error',
     ],
+    'curly': [
+      'error',
+      'multi-line',
+      'consistent',
+    ],
   },
 };
