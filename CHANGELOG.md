@@ -2,6 +2,101 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="5.0.0"></a>
+# [5.0.0](https://github.com/metarhia/eslint-config-metarhia/compare/v4.0.0...v5.0.0) (2018-09-28)
+
+
+### Features
+
+* **rules:** add consistent-return rule ([#15](https://github.com/metarhia/eslint-config-metarhia/issues/15)) ([e91c939](https://github.com/metarhia/eslint-config-metarhia/commit/e91c939))
+* **rules:** enforce curly braces on multiline blocks ([#16](https://github.com/metarhia/eslint-config-metarhia/issues/16)) ([3132fdc](https://github.com/metarhia/eslint-config-metarhia/commit/3132fdc))
+
+
+### BREAKING CHANGES
+
+* **rules:** before this change, it was possible to have a function
+that used the `return` statement with a value only in some of its
+execution paths. This rule enforces function to explicitly return a
+value in every execution path if at least one execution path returns a
+value.
+
+Before:
+
+```js
+function doSomething(condition) {
+    if (condition) {
+        return true;
+    } else {
+        return;
+    }
+}
+```
+
+After:
+
+```js
+function doSomething(condition) {
+    if (condition) {
+        return true;
+    } else {
+        return false;
+    }
+}
+
+// or
+
+function doSomething(condition) {
+    if (condition) {
+        return true;
+    }
+    return false;
+}
+```
+* **rules:** before this change, it was allowed to avoid the use of
+block statements (curly braces) with `if`, `else`, `for`, `while`, and
+`do`, when there is only one statement in the block. After this change,
+omitting the curly braces is only allowed when the statement is on the
+same line as `if`, `else if`, `else`, `for`, `while`, or `do`. Also,
+this change enforces consistency in the usage of curly braces for `if`,
+`else if` and `else` chains.
+
+Before:
+
+```js
+if (foo)
+  bar();
+
+if (x) a();
+else {
+  b();
+  c();
+}
+```
+
+After:
+
+```js
+if (foo) bar();
+
+// or
+
+if (foo) {
+  bar();
+}
+
+if (x) {
+  a();
+} else {
+  b();
+  c();
+}
+```
+
+Some of the problems reported by this rule can be fixed via
+`eslint --fix`.
+
+
+
 <a name="4.0.0"></a>
 # [4.0.0](https://github.com/metarhia/eslint-config-metarhia/compare/v3.0.0...v4.0.0) (2018-08-22)
 
