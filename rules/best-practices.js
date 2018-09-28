@@ -23,5 +23,8 @@ module.exports = {
       'multi-line',
       'consistent',
     ],
+    'consistent-return': [
+      'error',
+    ],
   },
 };
