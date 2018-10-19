@@ -166,5 +166,14 @@ module.exports = {
         },
       },
     ],
+    'no-extra-parens': [
+      'error',
+      'all',
+      {
+        returnAssign: false,
+        nestedBinaryExpressions: false,
+        enforceForArrowConditionals: false,
+      },
+    ],
   },
 };
