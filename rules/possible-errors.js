@@ -11,5 +11,8 @@ module.exports = {
         checkLoops: false,
       },
     ],
+    'no-return-assign': [
+      'error',
+    ],
   },
 };
