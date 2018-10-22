@@ -2,6 +2,75 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="6.0.0"></a>
+# [6.0.0](https://github.com/metarhia/eslint-config-metarhia/compare/v5.0.0...v6.0.0) (2018-10-22)
+
+
+### Features
+
+* **rules:** add no-extra-parens rule ([#21](https://github.com/metarhia/eslint-config-metarhia/issues/21)) ([226fc9c](https://github.com/metarhia/eslint-config-metarhia/commit/226fc9c))
+* **rules:** add no-return-assign rule ([#19](https://github.com/metarhia/eslint-config-metarhia/issues/19)) ([e8838ed](https://github.com/metarhia/eslint-config-metarhia/commit/e8838ed))
+* **rules:** remove implicit-arrow-linebreak rule ([#20](https://github.com/metarhia/eslint-config-metarhia/issues/20)) ([d4f68d9](https://github.com/metarhia/eslint-config-metarhia/commit/d4f68d9))
+
+
+### BREAKING CHANGES
+
+* **rules:** with this change it is allowed to use parentheses
+only where they are necessary, except for arrow conditionals (to avoid
+conflicts with no-confusing-arrow rule), return assignments (to avoid
+conflicts with no-return-assign rule) and nested binary expressions
+(where parentheses can be used for clarity).
+
+Before:
+
+```js
+a = (b * c);
+
+typeof (a);
+
+const fn = () => (
+  doSomething()
+);
+```
+
+After:
+
+```js
+a = b * c;
+
+typeof a;
+
+const fn = () => doSomething();
+```
+* **rules:** before, it was possible to use assignment operators in
+a return statement without using parentheses, which could lead to some
+mistakes, where assignment operators are used in place of the comparison
+operators.
+
+Before:
+
+```js
+function doSomething() {
+  return foo = bar + 2;
+}
+```
+
+After:
+
+```js
+function doSomething() {
+  return foo === bar + 2;
+}
+
+// or
+
+function doSomething() {
+  return (foo = bar + 2);
+}
+```
+
+
+
 <a name="5.0.0"></a>
 # [5.0.0](https://github.com/metarhia/eslint-config-metarhia/compare/v4.0.0...v5.0.0) (2018-09-28)
 
