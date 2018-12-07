@@ -9,6 +9,7 @@ const rules = [
   './rules/stylistic-issues',
   './rules/ecmascript-6',
   './rules/plugin-import',
+  './rules/parser-options',
 ].map(require.resolve);
 
 module.exports = {
