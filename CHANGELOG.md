@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="6.1.0"></a>
+# [6.1.0](https://github.com/metarhia/eslint-config-metarhia/compare/v6.0.0...v6.1.0) (2018-12-07)
+
+
+### Features
+
+* **rules:** add parserOptions and set ecmaVersion to 2018 ([#24](https://github.com/metarhia/eslint-config-metarhia/issues/24)) ([18d8cd5](https://github.com/metarhia/eslint-config-metarhia/commit/18d8cd5))
+* **rules:** enable allowTemplateLiterals option for quotes rule ([#23](https://github.com/metarhia/eslint-config-metarhia/issues/23)) ([00e3ac2](https://github.com/metarhia/eslint-config-metarhia/commit/00e3ac2))
+
+
+
 <a name="6.0.0"></a>
 # [6.0.0](https://github.com/metarhia/eslint-config-metarhia/compare/v5.0.0...v6.0.0) (2018-10-22)
 
