@@ -13,8 +13,5 @@ const rules = [
 ].map(require.resolve);
 
 module.exports = {
-  extends: [
-    'eslint:recommended',
-    ...rules,
-  ],
+  extends: ['eslint:recommended', ...rules],
 };
