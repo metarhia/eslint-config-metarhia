@@ -2,7 +2,7 @@
 
 module.exports = {
   rules: {
-    'indent': [
+    indent: [
       'error',
       2,
       {
@@ -14,10 +14,7 @@ module.exports = {
         MemberExpression: 1,
       },
     ],
-    'block-spacing': [
-      'error',
-      'always',
-    ],
+    'block-spacing': ['error', 'always'],
     'brace-style': [
       'error',
       '1tbs',
@@ -25,13 +22,8 @@ module.exports = {
         allowSingleLine: true,
       },
     ],
-    'camelcase': [
-      'error',
-    ],
-    'comma-dangle': [
-      'error',
-      'always-multiline',
-    ],
+    camelcase: ['error'],
+    'comma-dangle': ['error', 'always-multiline'],
     'comma-spacing': [
       'error',
       {
@@ -39,17 +31,9 @@ module.exports = {
         after: true,
       },
     ],
-    'comma-style': [
-      'error',
-      'last',
-    ],
-    'eol-last': [
-      'error',
-    ],
-    'func-call-spacing': [
-      'error',
-      'never',
-    ],
+    'comma-style': ['error', 'last'],
+    'eol-last': ['error'],
+    'func-call-spacing': ['error', 'never'],
     'key-spacing': [
       'error',
       {
@@ -70,10 +54,7 @@ module.exports = {
         },
       },
     ],
-    'linebreak-style': [
-      'error',
-      'unix',
-    ],
+    'linebreak-style': ['error', 'unix'],
     'max-len': [
       'error',
       {
@@ -95,44 +76,22 @@ module.exports = {
         properties: true,
       },
     ],
-    'new-parens': [
-      'error',
-    ],
-    'no-lonely-if': [
-      'error',
-    ],
-    'no-trailing-spaces': [
-      'error',
-    ],
-    'no-unneeded-ternary': [
-      'error',
-    ],
-    'no-whitespace-before-property': [
-      'error',
-    ],
-    'object-curly-spacing': [
-      'error',
-      'always',
-    ],
-    'operator-assignment': [
-      'error',
-      'always',
-    ],
-    'operator-linebreak': [
-      'error',
-      'after',
-    ],
-    'quotes': [
+    'new-parens': ['error'],
+    'no-lonely-if': ['error'],
+    'no-trailing-spaces': ['error'],
+    'no-unneeded-ternary': ['error'],
+    'no-whitespace-before-property': ['error'],
+    'object-curly-spacing': ['error', 'always'],
+    'operator-assignment': ['error', 'always'],
+    'operator-linebreak': ['error', 'after'],
+    quotes: [
       'error',
       'single',
       {
         allowTemplateLiterals: true,
       },
     ],
-    'semi': [
-      'error',
-      'always',
-    ],
+    semi: ['error', 'always'],
     'semi-spacing': [
       'error',
       {
@@ -140,21 +99,10 @@ module.exports = {
         after: true,
       },
     ],
-    'space-before-blocks': [
-      'error',
-      'always',
-    ],
-    'space-before-function-paren': [
-      'error',
-      'never',
-    ],
-    'space-in-parens': [
-      'error',
-      'never',
-    ],
-    'space-infix-ops': [
-      'error',
-    ],
+    'space-before-blocks': ['error', 'always'],
+    'space-before-function-paren': ['error', 'never'],
+    'space-in-parens': ['error', 'never'],
+    'space-infix-ops': ['error'],
     'space-unary-ops': [
       'error',
       {

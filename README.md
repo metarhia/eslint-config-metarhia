@@ -18,11 +18,11 @@ Opinionated [ESLint][] config and de-facto JavaScript styleguide for
 
 ## Contributing
 
-Please adhere to [Conventional Commits][] styleguide for commit messages (`npm
-install` creates a Git hook that lints your commit messages, and they are also
-checked on CI, but please write them properly beforehand so that they don't get
-rejected.  If that happens locally while committing, though, don't worry, your
-commit message isn't lost, you can still find it in `.git/COMMIT_EDITMSG`).
+Please adhere to [Conventional Commits][] styleguide for commit messages
+(`npm install` creates a Git hook that lints your commit messages, and they are
+also checked on CI, but please write them properly beforehand so that they don't
+get rejected. If that happens locally while committing, though, don't worry,
+your commit message isn't lost, you can still find it in `.git/COMMIT_EDITMSG`).
 
 ### Releasing
 
@@ -43,9 +43,9 @@ in Git, and publish it to npm registry.
 
 MIT. See the [LICENSE][] file for details.
 
-[Conventional Commits]: https://conventionalcommits.org/
-[ESLint]: https://eslint.org/
-[LICENSE]: LICENSE
-[Metarhia]: https://github.com/metarhia
+[conventional commits]: https://conventionalcommits.org/
+[eslint]: https://eslint.org/
+[license]: LICENSE
+[metarhia]: https://github.com/metarhia
 [travis-badge]: https://travis-ci.org/metarhia/eslint-config-metarhia.svg?branch=master
 [travis-url]: https://travis-ci.org/metarhia/eslint-config-metarhia

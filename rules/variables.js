@@ -2,9 +2,7 @@
 
 module.exports = {
   rules: {
-    'no-shadow-restricted-names': [
-      'error',
-    ],
+    'no-shadow-restricted-names': ['error'],
     'no-use-before-define': [
       'error',
       {

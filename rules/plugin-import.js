@@ -1,9 +1,7 @@
 'use strict';
 
 module.exports = {
-  plugins: [
-    'import',
-  ],
+  plugins: ['import'],
   rules: {
     'import/no-unresolved': [
       'error',
