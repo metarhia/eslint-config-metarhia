@@ -9,5 +9,6 @@ module.exports = {
     'no-useless-concat': ['error'],
     curly: ['error', 'multi-line', 'consistent'],
     'consistent-return': ['error'],
+    'no-return-await': ['error'],
   },
 };
