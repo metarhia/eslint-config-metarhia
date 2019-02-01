@@ -2,6 +2,64 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="7.0.0"></a>
+# [7.0.0](https://github.com/metarhia/eslint-config-metarhia/compare/v6.1.0...v7.0.0) (2019-02-01)
+
+
+### Features
+
+* **rules:** change space-before-function-paren for async functions ([#26](https://github.com/metarhia/eslint-config-metarhia/issues/26)) ([c5922b2](https://github.com/metarhia/eslint-config-metarhia/commit/c5922b2))
+* **rules:** disallow unnecessary return await ([#27](https://github.com/metarhia/eslint-config-metarhia/issues/27)) ([d49c1ac](https://github.com/metarhia/eslint-config-metarhia/commit/d49c1ac))
+
+
+### BREAKING CHANGES
+
+* **rules:** with this change it is an error to not have a space
+before function parentheses in an async function declaration.
+
+Before:
+
+```js
+const a = async() => {};
+```
+
+After:
+
+```js
+const a = async () => {};
+```
+* **rules:** with this it is an error to use return await in an
+async function where it doesn't bring any benefits. Note that separate
+await and then return or return await inside of the try-catch block are
+still allowed.
+
+This is an error:
+
+```js
+async function foo() {
+  return await bar();
+}
+```
+
+These are not:
+
+```js
+async function foo() {
+  await bar();
+  return;
+}
+```
+
+```js
+async function foo() {
+  try {
+    return await bar();
+  } catch (e) {}
+}
+```
+
+
+
 <a name="6.1.0"></a>
 # [6.1.0](https://github.com/metarhia/eslint-config-metarhia/compare/v6.0.0...v6.1.0) (2018-12-07)
 

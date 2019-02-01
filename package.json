@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-metarhia",
-  "version": "6.1.0",
+  "version": "7.0.0",
   "description": "ESLint config for Metarhia projects",
   "main": "index.js",
   "scripts": {
