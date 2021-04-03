@@ -1,6 +1,6 @@
 # eslint-config-metarhia
 
-[![Build Status][travis-badge]][travis-url]
+[![Build Status][ci-badge]][ci-url]
 [![Greenkeeper badge](https://badges.greenkeeper.io/metarhia/eslint-config-metarhia.svg)](https://greenkeeper.io/)
 
 Opinionated [ESLint][] config and de-facto JavaScript styleguide for
@@ -47,5 +47,5 @@ MIT. See the [LICENSE][] file for details.
 [eslint]: https://eslint.org/
 [license]: LICENSE
 [metarhia]: https://github.com/metarhia
-[travis-badge]: https://travis-ci.org/metarhia/eslint-config-metarhia.svg?branch=master
-[travis-url]: https://travis-ci.org/metarhia/eslint-config-metarhia
+[ci-badge]: https://github.com/metarhia/eslint-config-metarhia/workflows/Testing%20CI/badge.svg
+[ci-url]: https://github.com/metarhia/eslint-config-metarhia/actions?query=workflow%3A%22Testing+CI%22+branch%3Amaster
