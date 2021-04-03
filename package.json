@@ -11,7 +11,6 @@
     "lint-md": "remark --quiet .",
     "lint-prettier": "prettier -c \"**/*.js\" \"**/*.json\" \"**/*.md\" \".*rc\" \"**/*.yml\"",
     "test": "npm run -s lint",
-    "test-ci": "npm test && ./scripts/lint-commit-ci.sh",
     "precommit": "npm test",
     "release": "standard-version"
   },
