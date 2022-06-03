@@ -10,6 +10,7 @@ const rules = [
   './rules/ecmascript-6',
   './rules/plugin-import',
   './rules/parser-options',
+  './rules/ecmascript-13',
 ].map(require.resolve);
 
 module.exports = {
