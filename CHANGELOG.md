@@ -1,5 +1,10 @@
 # Change Log
 
+## [7.1.1][] - 2022-06-04
+
+- Dependencies updated to latest versions
+- ECMAScript 13 (2022) features support
+
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
 <a name="7.0.0"></a>
