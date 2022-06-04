@@ -1,6 +1,6 @@
 # Change Log
 
-## [7.1.1][] - 2022-06-04
+## [8.0.0][] - 2022-06-04
 
 - Dependencies updated to latest versions
 - ECMAScript 13 (2022) features support
