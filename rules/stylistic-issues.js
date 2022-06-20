@@ -83,7 +83,11 @@ module.exports = {
     'no-whitespace-before-property': ['error'],
     'object-curly-spacing': ['error', 'always'],
     'operator-assignment': ['error', 'always'],
-    'operator-linebreak': ['error', 'after'],
+    'operator-linebreak': [
+      'error',
+      'after',
+      { overrides: { '?': 'before', ':': 'before' } },
+    ],
     quotes: [
       'error',
       'single',

@@ -6,14 +6,8 @@ module.exports = {
   },
   rules: {
     'arrow-body-style': ['error', 'as-needed'],
-    'arrow-parens': ['error', 'as-needed'],
+    'arrow-parens': ['error', 'always'],
     'arrow-spacing': ['error'],
-    'no-confusing-arrow': [
-      'error',
-      {
-        allowParens: true,
-      },
-    ],
     'no-useless-computed-key': ['error'],
     'no-useless-rename': ['error'],
     'no-var': ['error'],

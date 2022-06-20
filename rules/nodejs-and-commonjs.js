@@ -5,6 +5,6 @@ module.exports = {
     node: true,
   },
   rules: {
-    'handle-callback-err': ['error', '^.*(e|E)rr'],
+    'handle-callback-err': ['error', '^err'],
   },
 };
