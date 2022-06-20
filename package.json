@@ -1,19 +1,12 @@
 {
   "name": "eslint-config-metarhia",
-  "version": "8.0.0",
+  "version": "8.1.0",
   "description": "ESLint config for Metarhia projects",
   "main": "index.js",
   "scripts": {
-    "commitmsg": "commitlint -e",
-    "lint": "npm run -s lint-js && npm run -s lint-md && npm run -s lint-prettier",
-    "lint-js": "eslint .",
+    "lint": "eslint . && prettier --check \"**/*.js\" \"**/*.json\" \"**/*.md\" \".*rc\" \"**/*.yml\"",
     "fmt": "prettier --write \"**/*.js\" \"**/*.json\" \"**/*.md\" \".*rc\" \"**/*.yml\"",
-    "lint-md": "remark --quiet .",
-    "lint-prettier": "prettier -c \"**/*.js\" \"**/*.json\" \"**/*.md\" \".*rc\" \"**/*.yml\"",
-    "test": "npm run -s lint",
-    "test-ci": "npm test && ./scripts/lint-commit-ci.sh",
-    "precommit": "npm test",
-    "release": "standard-version"
+    "test": "npm run -s lint"
   },
   "repository": {
     "type": "git",
@@ -36,17 +29,11 @@
   "homepage": "https://github.com/metarhia/eslint-config-metarhia#readme",
   "dependencies": {},
   "devDependencies": {
-    "@commitlint/cli": "^17.0.2",
-    "@commitlint/config-conventional": "^17.0.2",
-    "eslint": "^8.16.0",
+    "eslint": "^8.18.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-prettier": "^4.0.0",
-    "husky": "^8.0.1",
-    "prettier": "^2.6.2",
-    "remark-cli": "^10.0.1",
-    "remark-preset-lint-metarhia": "^2.0.1",
-    "standard-version": "^9.5.0"
+    "prettier": "^2.7.1"
   },
   "peerDependencies": {
     "eslint": "^8.16.0",
