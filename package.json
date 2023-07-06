@@ -27,6 +27,9 @@
     "url": "https://github.com/metarhia/eslint-config-metarhia/issues"
   },
   "homepage": "https://github.com/metarhia/eslint-config-metarhia#readme",
+  "engines": {
+    "node": "16 || 18 || 19 || 20"
+  },
   "devDependencies": {
     "eslint": "^8.44.0",
     "eslint-config-prettier": "^8.8.0",
