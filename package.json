@@ -28,14 +28,14 @@
   },
   "homepage": "https://github.com/metarhia/eslint-config-metarhia#readme",
   "devDependencies": {
-    "eslint": "^8.35.0",
+    "eslint": "^8.44.0",
     "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-prettier": "^4.2.1",
     "prettier": "^2.8.8"
   },
   "peerDependencies": {
-    "eslint": "^8.35.0",
-    "eslint-plugin-import": "^2.27.5"
+    "eslint": "^8.44.0",
+    "eslint-plugin-import": "^2.26.0"
   }
 }
