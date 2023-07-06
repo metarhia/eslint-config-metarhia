@@ -1,5 +1,13 @@
 # Change Log
 
+## [8.2.0][] - 2023-07-06
+
+- Updated: consistent-return
+
+## [8.1.0][] - 2022-06-21
+
+- Updated: arrow-parens, handle-callback-err, operator-linebreak
+
 ## [8.0.0][] - 2022-06-04
 
 - Dependencies updated to latest versions
