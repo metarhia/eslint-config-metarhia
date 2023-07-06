@@ -8,7 +8,7 @@ module.exports = {
     'no-unmodified-loop-condition': ['error'],
     'no-useless-concat': ['error'],
     curly: ['error', 'multi-line', 'consistent'],
-    'consistent-return': ['error'],
+    'consistent-return': ['error', { treatUndefinedAsUnspecified: true }],
     'no-return-await': ['error'],
   },
 };
