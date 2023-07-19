@@ -1,17 +1,9 @@
 {
   "name": "eslint-config-metarhia",
   "version": "8.2.0",
+  "author": "Alexey Orlenko <eaglexrlnk@gmail.com>",
+  "license": "MIT",
   "description": "ESLint config for Metarhia projects",
-  "main": "index.js",
-  "scripts": {
-    "lint": "eslint . && prettier --check \"**/*.js\" \"**/*.json\" \"**/*.md\" \".*rc\"",
-    "fmt": "prettier --write \"**/*.js\" \"**/*.json\" \"**/*.md\" \".*rc\"",
-    "test": "npm run -s lint"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/metarhia/eslint-config-metarhia.git"
-  },
   "keywords": [
     "eslint",
     "eslintconfig",
@@ -21,18 +13,27 @@
     "preset",
     "metarhia"
   ],
-  "author": "Alexey Orlenko <eaglexrlnk@gmail.com>",
-  "license": "MIT",
+  "main": "index.js",
+  "files": ["rules/", "scripts/"],
+  "engines": {
+    "node": "16 || 18 || 19 || 20"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/metarhia/eslint-config-metarhia.git"
+  },
   "bugs": {
     "url": "https://github.com/metarhia/eslint-config-metarhia/issues"
   },
-  "homepage": "https://github.com/metarhia/eslint-config-metarhia#readme",
+  "homepage": "https://metarhia.com",
   "funding": {
     "type": "patreon",
     "url": "https://www.patreon.com/tshemsedinov"
   },
-  "engines": {
-    "node": "16 || 18 || 19 || 20"
+  "scripts": {
+    "lint": "eslint . && prettier --check \"**/*.js\" \"**/*.json\" \"**/*.md\" \".*rc\"",
+    "fmt": "prettier --write \"**/*.js\" \"**/*.json\" \"**/*.md\" \".*rc\"",
+    "test": "npm run -s lint"
   },
   "devDependencies": {
     "eslint": "^8.45.0",
