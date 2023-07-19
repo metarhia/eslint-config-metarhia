@@ -27,6 +27,10 @@
     "url": "https://github.com/metarhia/eslint-config-metarhia/issues"
   },
   "homepage": "https://github.com/metarhia/eslint-config-metarhia#readme",
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/tshemsedinov"
+  },
   "engines": {
     "node": "16 || 18 || 19 || 20"
   },
