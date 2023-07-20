@@ -1,5 +1,9 @@
 # Change Log
 
+## [8.2.1][] - 2023-07-20
+
+- Update dependencies and package file structure
+
 ## [8.2.0][] - 2023-07-06
 
 - Updated: consistent-return
