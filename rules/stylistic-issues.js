@@ -80,6 +80,7 @@ module.exports = {
     'no-lonely-if': ['error'],
     'no-trailing-spaces': ['error'],
     'no-unneeded-ternary': ['error'],
+    'no-nested-ternary': ['error'],
     'no-whitespace-before-property': ['error'],
     'object-curly-spacing': ['error', 'always'],
     'operator-assignment': ['error', 'always'],
