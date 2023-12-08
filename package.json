@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-metarhia",
-  "version": "8.2.1",
+  "version": "8.2.2",
   "author": "Alexey Orlenko <eaglexrlnk@gmail.com>",
   "license": "MIT",
   "description": "ESLint config for Metarhia projects",
