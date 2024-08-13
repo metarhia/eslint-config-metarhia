@@ -1,7 +1,5 @@
 'use strict';
 
-module.exports = [
-  {
-    ignores: ['node_modules/*'],
-  },
-];
+const init = require('./index.js');
+
+module.exports = init;
