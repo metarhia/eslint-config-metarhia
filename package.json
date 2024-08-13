@@ -36,7 +36,7 @@
     "test": "npm run -s lint"
   },
   "devDependencies": {
-    "eslint": "^8.55.0",
+    "eslint": "^9.9.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-import": "^2.29.0",
     "eslint-plugin-prettier": "^5.0.1",
