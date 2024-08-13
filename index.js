@@ -1,18 +1,34 @@
 'use strict';
 
-const rules = [
-  './rules/possible-errors',
-  './rules/best-practices',
-  './rules/strict-mode',
-  './rules/variables',
-  './rules/nodejs-and-commonjs',
-  './rules/stylistic-issues',
-  './rules/ecmascript-6',
-  './rules/plugin-import',
-  './rules/parser-options',
-  './rules/ecmascript-13',
-].map(require.resolve);
+const { recommended } = require('@eslint/js').configs;
 
-module.exports = {
-  extends: ['eslint:recommended', ...rules],
+const metarhia = {
+  languageOptions: {
+    ecmaVersion: 'latest',
+    sourceType: 'commonjs',
+    globals: {
+      BigInt: true,
+    },
+  },
+  ignores: ['node_modules/*'],
+  rules: {},
 };
+
+const files = [
+  './rules/possible-errors.js',
+  './rules/best-practices.js',
+  './rules/strict-mode.js',
+  './rules/variables.js',
+  './rules/nodejs-and-commonjs.js',
+  './rules/stylistic-issues.js',
+  './rules/ecmascript-6.js',
+  './rules/ecmascript-13.js',
+];
+
+const sections = files.map(require);
+
+for (const section of sections) {
+  Object.assign(metarhia.rules, section);
+}
+
+module.exports = [recommended, metarhia];
