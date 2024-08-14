@@ -1,5 +1,12 @@
 # Change Log
 
+## [9.0.0][] - 2024-08-14
+
+- Update eslint to 9.x: Rewrite rules to plain format
+- Drop node.js 18.x support and add node.js 22 support
+- Update repository structure, CI, and badges
+- Update dependencies and package file structure
+
 ## [8.2.1][] - 2023-07-20
 
 - Update dependencies and package file structure
