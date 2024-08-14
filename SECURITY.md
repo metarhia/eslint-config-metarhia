@@ -9,6 +9,7 @@
 | 8.0.x   | :x:                |
 | 8.1.x   | :x:                |
 | 8.2.x   | :white_check_mark: |
+| 9.0.x   | :white_check_mark: |
 
 ## Reporting a Vulnerability
 
