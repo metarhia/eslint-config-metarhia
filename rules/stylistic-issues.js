@@ -1,18 +1,7 @@
 'use strict';
 
 module.exports = {
-  indent: [
-    'error',
-    2,
-    {
-      SwitchCase: 1,
-      VariableDeclarator: {
-        let: 2,
-        const: 3,
-      },
-      MemberExpression: 1,
-    },
-  ],
+  indent: ['off'],
   'block-spacing': ['error', 'always'],
   'brace-style': [
     'error',

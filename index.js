@@ -1,15 +1,19 @@
 'use strict';
 
 const { recommended } = require('@eslint/js').configs;
+const configPrettier = require('eslint-config-prettier');
+const pluginPrettier = require('eslint-plugin-prettier');
 
-const metarhia = {
+const configMetarhia = {
   languageOptions: {
     ecmaVersion: 'latest',
     sourceType: 'commonjs',
     globals: {
       BigInt: true,
+      console: true,
     },
   },
+  plugins: { prettier: pluginPrettier },
   ignores: ['node_modules/*'],
   rules: {},
 };
@@ -28,7 +32,7 @@ const files = [
 const sections = files.map(require);
 
 for (const section of sections) {
-  Object.assign(metarhia.rules, section);
+  Object.assign(configMetarhia.rules, section);
 }
 
-module.exports = [recommended, metarhia];
+module.exports = [recommended, configPrettier, configMetarhia];
