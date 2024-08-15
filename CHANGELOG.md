@@ -1,5 +1,10 @@
 # Change Log
 
+## [9.0.1][] - 2024-08-15
+
+- Resolve formatting conflict between ESLint and Prettier
+- Update npm scripts and remove /scripts folder from package
+
 ## [9.0.0][] - 2024-08-14
 
 - Update eslint to 9.x: Rewrite rules to plain format
