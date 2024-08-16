@@ -1,5 +1,10 @@
 # Change Log
 
+## [9.0.2][] - 2024-08-16
+
+- Add node.js backend globals
+- Mode devDependencies to dependencies
+
 ## [9.0.1][] - 2024-08-15
 
 - Resolve formatting conflict between ESLint and Prettier
