@@ -10,6 +10,11 @@ const configMetarhia = {
     sourceType: 'commonjs',
     globals: {
       BigInt: true,
+      AbortController: true,
+      AbortSignal: true,
+      DOMException: true,
+      URLSearchParams: true,
+      fetch: true,
       console: true,
       process: true,
       Buffer: true,
