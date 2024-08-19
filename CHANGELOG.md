@@ -1,5 +1,9 @@
 # Change Log
 
+## [9.0.3][] - 2024-08-18
+
+- Add more frontend globals
+
 ## [9.0.2][] - 2024-08-16
 
 - Add node.js backend globals
