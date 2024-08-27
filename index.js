@@ -3,30 +3,13 @@
 const { recommended } = require('@eslint/js').configs;
 const configPrettier = require('eslint-config-prettier');
 const pluginPrettier = require('eslint-plugin-prettier');
+const globals = require('./rules/globals.js');
 
 const configMetarhia = {
   languageOptions: {
     ecmaVersion: 'latest',
     sourceType: 'commonjs',
-    globals: {
-      BigInt: true,
-      AbortController: true,
-      AbortSignal: true,
-      DOMException: true,
-      URLSearchParams: true,
-      fetch: true,
-      console: true,
-      process: true,
-      Buffer: true,
-      setTimeout: true,
-      setImmediate: true,
-      setInterval: true,
-      clearTimeout: true,
-      clearImmediate: true,
-      clearInterval: true,
-      __dirname: true,
-      __filename: true,
-    },
+    globals,
   },
   plugins: { prettier: pluginPrettier },
   ignores: ['node_modules/*'],
