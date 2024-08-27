@@ -1,5 +1,10 @@
 # Change Log
 
+## [9.0.4][] - 2024-08-27
+
+- Add much more node.js and frontend globals
+- Move globals to separate submodule
+
 ## [9.0.3][] - 2024-08-18
 
 - Add more frontend globals
