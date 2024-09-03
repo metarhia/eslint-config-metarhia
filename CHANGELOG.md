@@ -1,5 +1,14 @@
 # Change Log
 
+## [9.0.6][] - 2024-09-03
+
+- Add more global classes
+
+## [9.0.5][] - 2024-08-31
+
+- Add more global classes
+- Fix github template
+
 ## [9.0.4][] - 2024-08-27
 
 - Add much more node.js and frontend globals
