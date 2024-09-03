@@ -42,4 +42,12 @@ module.exports = {
   CompressionStream: true,
   DecompressionStream: true,
   CountQueuingStrategy: true,
+  DomainError: true,
+  document: true,
+  location: true,
+  self: true,
+  caches: true,
+  navigator: true,
+  File: true,
+  localStorage: true,
 };
