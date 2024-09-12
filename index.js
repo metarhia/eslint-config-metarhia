@@ -29,8 +29,11 @@ const files = [
 
 const sections = files.map(require);
 
+Object.assign(configMetarhia.rules, recommended.rules);
+Object.assign(configMetarhia.rules, configPrettier.rules);
+
 for (const section of sections) {
   Object.assign(configMetarhia.rules, section);
 }
 
-module.exports = [recommended, configPrettier, configMetarhia];
+module.exports = [configMetarhia];
