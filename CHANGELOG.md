@@ -1,5 +1,9 @@
 # Change Log
 
+## [9.0.7][] - 2024-09-12
+
+- Merge rules from all style guides
+
 ## [9.0.6][] - 2024-09-03
 
 - Add more global classes
