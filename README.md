@@ -24,7 +24,7 @@ npm i -D eslint eslint-config-metarhia
 const config = require('eslint-config-metarhia');
 
 module.exports = [
-  config,
+  ...config,
   {
     rules: {
       'no-unused-vars': 'warn',
