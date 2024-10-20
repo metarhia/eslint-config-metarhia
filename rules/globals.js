@@ -61,4 +61,11 @@ module.exports = {
   Crypto: true,
   CryptoKey: true,
   SubtleCrypto: true,
+  performance: true,
+  PerformanceEntry: true,
+  PerformanceMark: true,
+  PerformanceMeasure: true,
+  PerformanceObserver: true,
+  PerformanceObserverEntryList: true,
+  PerformanceResourceTiming: true,
 };
