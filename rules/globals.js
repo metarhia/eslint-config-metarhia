@@ -1,6 +1,8 @@
 'use strict';
 
 module.exports = {
+  atob: true,
+  btoa: true,
   BigInt: true,
   AbortController: true,
   AbortSignal: true,
@@ -26,7 +28,10 @@ module.exports = {
   __dirname: true,
   __filename: true,
   Event: true,
+  EventSource: true,
   EventTarget: true,
+  CloseEvent: true,
+  CustomEvent: true,
   MessageChannel: true,
   MessageEvent: true,
   MessagePort: true,
@@ -50,5 +55,10 @@ module.exports = {
   caches: true,
   navigator: true,
   File: true,
+  Storage: true,
   localStorage: true,
+  sessionStorage: true,
+  Crypto: true,
+  CryptoKey: true,
+  SubtleCrypto: true,
 };
