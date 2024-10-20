@@ -6,6 +6,7 @@ module.exports = {
   AbortSignal: true,
   DOMException: true,
   fetch: true,
+  structuredClone: true,
   console: true,
   process: true,
   Buffer: true,
