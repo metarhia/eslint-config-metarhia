@@ -1,5 +1,10 @@
 # Change Log
 
+## [9.1.0][] - 2024-10-21
+
+- Added more global idenifiers for node and browser environment
+- Add node.js 23 to CI
+
 ## [9.0.7][] - 2024-09-12
 
 - Merge rules from all style guides
