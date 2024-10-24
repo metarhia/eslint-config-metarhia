@@ -1,5 +1,9 @@
 # Change Log
 
+## [9.1.1][] - 2024-10-24
+
+- Update space-before-function-paren
+
 ## [9.1.0][] - 2024-10-21
 
 - Added more global idenifiers for node and browser environment
