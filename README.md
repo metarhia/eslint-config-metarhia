@@ -17,7 +17,7 @@ styleguide for [Metarhia](https://github.com/metarhia/) projects.
 npm i -D eslint eslint-config-metarhia
 ```
 
-2. Import `eslint-config-metarhia` in `.eslint.config.js`, add additional rules,
+2. Import `eslint-config-metarhia` in `eslint.config.js`, add additional rules,
    export everything together.
 
 ```js
