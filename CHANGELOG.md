@@ -1,5 +1,9 @@
 # Change Log
 
+## [9.1.1][] - 2025-05-18
+
+- Node 24 support
+
 ## [9.1.1][] - 2024-10-24
 
 - Update space-before-function-paren
