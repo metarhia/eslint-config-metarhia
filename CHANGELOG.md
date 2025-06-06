@@ -1,5 +1,10 @@
 # Change Log
 
+## [9.1.2][] - 2025-06-06
+
+- Add node.js 24 to CI
+- Update dependencies
+
 ## [9.1.1][] - 2024-10-24
 
 - Update space-before-function-paren
