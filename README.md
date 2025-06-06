@@ -35,6 +35,6 @@ module.exports = [
 
 ## License
 
-Copyright (c) 2017-2024 [Metarhia contributors](https://github.com/metarhia/eslint-config-metarhia/graphs/contributors).
+Copyright (c) 2017-2025 [Metarhia contributors](https://github.com/metarhia/eslint-config-metarhia/graphs/contributors).
 eslint-config-metarhia is [MIT licensed](./LICENSE).\
 eslint-config-metarhia is a part of [Metarhia](https://github.com/metarhia) technology stack.
