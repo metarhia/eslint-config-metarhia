@@ -1,5 +1,10 @@
 # Change Log
 
+## [9.1.4][] - 2025-12-10
+
+- Add node.js 25 to CI
+- Update dependencies
+
 ## [9.1.3][] - 2025-08-31
 
 - Update dependencies
