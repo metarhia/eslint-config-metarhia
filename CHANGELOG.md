@@ -1,5 +1,10 @@
 # Change Log
 
+## [9.1.5][] - 2025-12-22
+
+- Add globals.crypto
+- Update dependencies
+
 ## [9.1.4][] - 2025-12-10
 
 - Add node.js 25 to CI
