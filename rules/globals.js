@@ -59,6 +59,7 @@ module.exports = {
   localStorage: true,
   sessionStorage: true,
   Crypto: true,
+  crypto: true,
   CryptoKey: true,
   SubtleCrypto: true,
   performance: true,
