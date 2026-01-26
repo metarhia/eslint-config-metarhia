@@ -52,13 +52,15 @@ module.exports = {
       ignoreUrls: true,
     },
   ],
-  'max-nested-callbacks': [ // unchanged
+  'max-nested-callbacks': [
+    // unchanged
     'error',
     {
       max: 5,
     },
   ],
-  'new-cap': [ // unchanged
+  'new-cap': [
+    // unchanged
     'error',
     {
       newIsCap: true,
@@ -83,7 +85,7 @@ module.exports = {
     'error',
     'single',
     {
-      allowTemplateLiterals: true,
+      allowTemplateLiterals: 'always', // true is deprecated
     },
   ],
   '@stylistic/semi': ['error', 'always'],
@@ -121,8 +123,8 @@ module.exports = {
     {
       returnAssign: false,
       nestedBinaryExpressions: false,
-      enforceForArrowConditionals: false,
-      ternaryOperandBinaryExpressions: false 
+      // enforceForArrowConditionals: false, // deprecated, use ignoredNodes
+      ternaryOperandBinaryExpressions: false, // added to comply with Prettier
     },
   ],
-}
+};
