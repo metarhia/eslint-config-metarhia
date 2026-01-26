@@ -1,28 +1,30 @@
 'use strict';
 
+// unchanged = not part of eslint.style/rules
+
 module.exports = {
-  indent: ['off'],
-  'block-spacing': ['error', 'always'],
-  'brace-style': [
+  '@stylistic/indent': ['off'],
+  '@stylistic/block-spacing': ['error', 'always'],
+  '@stylistic/brace-style': [
     'error',
     '1tbs',
     {
       allowSingleLine: true,
     },
   ],
-  camelcase: ['error'],
-  'comma-dangle': ['error', 'always-multiline'],
-  'comma-spacing': [
+  camelcase: ['error'], // unchanged
+  '@stylistic/comma-dangle': ['error', 'always-multiline'],
+  '@stylistic/comma-spacing': [
     'error',
     {
       before: false,
       after: true,
     },
   ],
-  'comma-style': ['error', 'last'],
-  'eol-last': ['error'],
-  'func-call-spacing': ['error', 'never'],
-  'key-spacing': [
+  '@stylistic/comma-style': ['error', 'last'],
+  '@stylistic/eol-last': ['error'],
+  '@stylistic/function-call-spacing': ['error', 'never'],
+  '@stylistic/key-spacing': [
     'error',
     {
       beforeColon: false,
@@ -30,7 +32,7 @@ module.exports = {
       mode: 'minimum',
     },
   ],
-  'keyword-spacing': [
+  '@stylistic/keyword-spacing': [
     'error',
     {
       before: true,
@@ -42,21 +44,21 @@ module.exports = {
       },
     },
   ],
-  'linebreak-style': ['error', 'unix'],
-  'max-len': [
+  '@stylistic/linebreak-style': ['error', 'unix'],
+  '@stylistic/max-len': [
     'error',
     {
       code: 80,
       ignoreUrls: true,
     },
   ],
-  'max-nested-callbacks': [
+  'max-nested-callbacks': [ // unchanged
     'error',
     {
       max: 5,
     },
   ],
-  'new-cap': [
+  'new-cap': [ // unchanged
     'error',
     {
       newIsCap: true,
@@ -64,36 +66,36 @@ module.exports = {
       properties: true,
     },
   ],
-  'new-parens': ['error'],
-  'no-lonely-if': ['error'],
-  'no-trailing-spaces': ['error'],
-  'no-unneeded-ternary': ['error'],
-  'no-nested-ternary': ['error'],
-  'no-whitespace-before-property': ['error'],
-  'object-curly-spacing': ['error', 'always'],
-  'operator-assignment': ['error', 'always'],
-  'operator-linebreak': [
+  '@stylistic/new-parens': ['error'],
+  'no-lonely-if': ['error'], // unchanged
+  '@stylistic/no-trailing-spaces': ['error'],
+  'no-unneeded-ternary': ['error'], // unchanged
+  'no-nested-ternary': ['error'], // unchanged
+  '@stylistic/no-whitespace-before-property': ['error'],
+  '@stylistic/object-curly-spacing': ['error', 'always'],
+  'operator-assignment': ['error', 'always'], // unchanged
+  '@stylistic/operator-linebreak': [
     'error',
     'after',
     { overrides: { '?': 'before', ':': 'before' } },
   ],
-  quotes: [
+  '@stylistic/quotes': [
     'error',
     'single',
     {
       allowTemplateLiterals: true,
     },
   ],
-  semi: ['error', 'always'],
-  'semi-spacing': [
+  '@stylistic/semi': ['error', 'always'],
+  '@stylistic/semi-spacing': [
     'error',
     {
       before: false,
       after: true,
     },
   ],
-  'space-before-blocks': ['error', 'always'],
-  'space-before-function-paren': [
+  '@stylistic/space-before-blocks': ['error', 'always'],
+  '@stylistic/space-before-function-paren': [
     'error',
     {
       anonymous: 'always',
@@ -101,9 +103,9 @@ module.exports = {
       asyncArrow: 'always',
     },
   ],
-  'space-in-parens': ['error', 'never'],
-  'space-infix-ops': ['error'],
-  'space-unary-ops': [
+  '@stylistic/space-in-parens': ['error', 'never'],
+  '@stylistic/space-infix-ops': ['error'],
+  '@stylistic/space-unary-ops': [
     'error',
     {
       words: true,
@@ -113,13 +115,14 @@ module.exports = {
       },
     },
   ],
-  'no-extra-parens': [
+  '@stylistic/no-extra-parens': [
     'error',
     'all',
     {
       returnAssign: false,
       nestedBinaryExpressions: false,
       enforceForArrowConditionals: false,
+      ternaryOperandBinaryExpressions: false 
     },
   ],
-};
+}

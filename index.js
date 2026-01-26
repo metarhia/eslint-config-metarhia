@@ -4,6 +4,7 @@ const { recommended } = require('@eslint/js').configs;
 const configPrettier = require('eslint-config-prettier');
 const pluginPrettier = require('eslint-plugin-prettier');
 const globals = require('./rules/globals.js');
+const stylistic = require('@stylistic/eslint-plugin');
 
 const configMetarhia = {
   languageOptions: {
@@ -11,7 +12,7 @@ const configMetarhia = {
     sourceType: 'commonjs',
     globals,
   },
-  plugins: { prettier: pluginPrettier },
+  plugins: { prettier: pluginPrettier, '@stylistic': stylistic },
   ignores: ['node_modules/*'],
   rules: {},
 };
