@@ -14,11 +14,9 @@
     "metarhia"
   ],
   "main": "index.js",
-  "files": [
-    "rules/"
-  ],
+  "files": ["rules/"],
   "engines": {
-    "node": ">= 18"
+    "node": ">= 20.19"
   },
   "repository": {
     "type": "git",
@@ -38,6 +36,7 @@
     "fix": "eslint . --fix && prettier --write \"**/*.js\" \"**/*.json\" \"**/*.md\""
   },
   "dependencies": {
+    "@eslint/js": "^10.0.0",
     "eslint": "^10.0.0",
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-prettier": "^5.5.5",
