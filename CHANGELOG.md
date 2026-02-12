@@ -1,5 +1,18 @@
 # Change Log
 
+- Migrate to ESLint 10.0.0
+- Add @eslint/js as explicit dependency
+- Require Node.js >= 20.19 (ESLint 10 requirement)
+- Remove Node.js 18 from CI matrix
+- Remove rule: handle-callback-err and nodejs-and-commonjs.js
+  (deprecated, scheduled for removal in ESLint 11)
+- Add rules:
+  - default-case-last
+  - logical-assignment-operators
+  - no-useless-return
+  - prefer-template
+- Configure no-shadow-restricted-names with reportGlobalThis: false for ESLint 10 compatibility
+
 ## [9.1.5][] - 2025-12-22
 
 - Add globals.crypto
