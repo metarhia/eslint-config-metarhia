@@ -1,6 +1,7 @@
 'use strict';
 
 module.exports = {
+  'default-case-last': ['error'],
   eqeqeq: ['error', 'always'],
   'no-loop-func': ['error'],
   'no-self-compare': ['error'],
