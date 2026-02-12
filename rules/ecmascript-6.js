@@ -6,6 +6,7 @@ module.exports = {
   'arrow-spacing': ['error'],
   'no-useless-computed-key': ['error'],
   'no-useless-rename': ['error'],
+  'no-useless-return': ['error'],
   'no-var': ['error'],
   'object-shorthand': ['error', 'always'],
   'prefer-arrow-callback': ['error'],
@@ -15,4 +16,5 @@ module.exports = {
   'prefer-spread': ['error'],
   'rest-spread-spacing': ['error', 'never'],
   'template-curly-spacing': ['error', 'never'],
+  'prefer-template': ['error'],
 };
