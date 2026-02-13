@@ -1,5 +1,17 @@
 # Change Log
 
+## [9.1.6][] - 2026-02-13
+
+- Update dependencies
+- Remove rule: handle-callback-err and nodejs-and-commonjs.js
+  (deprecated, scheduled for removal in ESLint 11)
+- Add rules:
+  - default-case-last
+  - logical-assignment-operators
+  - no-useless-return
+  - prefer-template
+- Configure no-shadow-restricted-names with reportGlobalThis: false for ESLint 10 compatibility
+
 ## [9.1.5][] - 2025-12-22
 
 - Add globals.crypto
