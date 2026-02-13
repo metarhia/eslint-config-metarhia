@@ -16,5 +16,4 @@ module.exports = {
   'prefer-spread': ['error'],
   'rest-spread-spacing': ['error', 'never'],
   'template-curly-spacing': ['error', 'never'],
-  'prefer-template': ['error'],
 };
