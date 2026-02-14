@@ -1,5 +1,9 @@
 # Change Log
 
+## [9.1.6][] - 2026-02-14
+
+- Remove prefer-template rule
+
 ## [9.1.6][] - 2026-02-13
 
 - Update dependencies
