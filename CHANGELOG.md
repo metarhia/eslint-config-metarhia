@@ -1,6 +1,11 @@
 # Change Log
 
-## [9.1.6][] - 2026-02-14
+## [9.1.8][] - 2026-02-24
+
+- Fix minimatch ReDoS vulnerability via npm overrides
+- Update vulnerable dependencies to safe nearest versions
+
+## [9.1.7][] - 2026-02-14
 
 - Remove prefer-template rule
 
