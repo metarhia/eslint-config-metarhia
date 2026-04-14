@@ -14,7 +14,9 @@
     "metarhia"
   ],
   "main": "index.js",
-  "files": ["rules/"],
+  "files": [
+    "rules/"
+  ],
   "engines": {
     "node": ">= 20.19"
   },
@@ -41,5 +43,8 @@
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-prettier": "^5.5.5",
     "prettier": "3.8.2"
+  },
+  "devDependencies": {
+    "metaskills": "^1.0.4"
   }
 }
