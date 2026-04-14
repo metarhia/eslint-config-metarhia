@@ -1,4 +1,4 @@
-# eslint-config-metarhia
+# Eslint config for Metarhia
 
 Opinionated [ESLint](https://eslint.org/) config and de-facto JavaScript
 styleguide for [Metarhia](https://github.com/metarhia/) projects.
@@ -17,8 +17,7 @@ styleguide for [Metarhia](https://github.com/metarhia/) projects.
 npm i -D eslint eslint-config-metarhia
 ```
 
-2. Import `eslint-config-metarhia` in `eslint.config.js`, add additional rules,
-   export everything together.
+2. Import `eslint-config-metarhia` in `eslint.config.js`, add any extra config objects, and export a single flat-config array.
 
 ```js
 const config = require('eslint-config-metarhia');
