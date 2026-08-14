@@ -16,7 +16,7 @@ const configMetarhia = {
   rules: {},
 };
 
-const files = [
+const ruleFiles = [
   './rules/possible-errors.js',
   './rules/best-practices.js',
   './rules/strict-mode.js',
@@ -26,13 +26,14 @@ const files = [
   './rules/ecmascript-13.js',
 ];
 
-const sections = files.map(require);
+const ruleSections = ruleFiles.map(require);
+const { rules } = configMetarhia;
 
-Object.assign(configMetarhia.rules, recommended.rules);
-Object.assign(configMetarhia.rules, configPrettier.rules);
+Object.assign(rules, recommended.rules);
+Object.assign(rules, configPrettier.rules);
 
-for (const section of sections) {
-  Object.assign(configMetarhia.rules, section);
+for (const section of ruleSections) {
+  Object.assign(rules, section);
 }
 
 module.exports = [configMetarhia];
