@@ -2,6 +2,11 @@
 
 ## [Unreleased][unreleased]
 
+## [9.2.0][] - 2026-08-15
+
+- Updated dependencies
+- Add rules: no-unassigned-vars, no-useless-assignment, array-callback-return, no-promise-executor-return, no-template-curly-in-string, no-unreachable-loop, no-eval, no-implied-eval, no-useless-constructor, no-caller, no-proto, no-iterator, radix, yoda, prefer-object-has-own, prefer-exponentiation-operator
+
 ## [9.1.9][] - 2026-04-14
 
 - Updated ESLint, Prettier, and related dependencies (including explicit `@eslint/js`).
