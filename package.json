@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-metarhia",
-  "version": "9.2.0",
+  "version": "9.2.1",
   "author": "Alexey Orlenko <eaglexrlnk@gmail.com>",
   "license": "MIT",
   "description": "ESLint config for Metarhia projects",
@@ -18,7 +18,7 @@
     "rules/"
   ],
   "engines": {
-    "node": ">= 20.19"
+    "node": ">=18"
   },
   "repository": {
     "type": "git",
