@@ -2,10 +2,11 @@
 
 ## [Unreleased][unreleased]
 
-## [9.2.0][] - 2026-08-15
+## [9.2.1][] - 2026-08-15
 
 - Updated dependencies
 - Add rules: no-unassigned-vars, no-useless-assignment, array-callback-return, no-promise-executor-return, no-template-curly-in-string, no-unreachable-loop, no-eval, no-implied-eval, no-useless-constructor, no-caller, no-proto, no-iterator, radix, yoda, prefer-object-has-own, prefer-exponentiation-operator
+- Required Node.js >= 19
 
 ## [9.1.9][] - 2026-04-14
 
@@ -171,7 +172,8 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
-[unreleased]: https://github.com/metarhia/eslint-config-metarhia/compare/v9.1.9...HEAD
+[unreleased]: https://github.com/metarhia/eslint-config-metarhia/compare/v9.2.1...HEAD
+[9.2.1]: https://github.com/metarhia/eslint-config-metarhia/compare/v9.1.9...v9.2.1
 [9.1.9]: https://github.com/metarhia/eslint-config-metarhia/compare/v9.1.8...v9.1.9
 [9.1.8]: https://github.com/metarhia/eslint-config-metarhia/compare/v9.1.7...v9.1.8
 [9.1.7]: https://github.com/metarhia/eslint-config-metarhia/compare/v9.1.6...v9.1.7
