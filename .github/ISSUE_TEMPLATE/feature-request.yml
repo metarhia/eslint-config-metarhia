@@ -1,0 +1,21 @@
+name: 💡 Feature request
+description: Suggest a rule or a change to the styleguide
+body:
+  - type: textarea
+    attributes:
+      label: Describe the problem
+      description: What code is hard to lint or review today?
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Describe the solution
+      description: The rule or behavior you want, and whether it should be an error or a warning.
+  - type: textarea
+    attributes:
+      label: Alternatives
+      description: Other rules or a project-level override you considered.
+  - type: textarea
+    attributes:
+      label: Additional context
+      description: An example of the code the change would accept or reject.

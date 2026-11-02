@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Metarhia community
+    url: https://t.me/metarhia
+    about: Questions and discussion. GitHub issues are for bugs and feature requests.
+  - name: Metarhia technology stack
+    url: https://t.me/metaserverless
+    about: Questions about the Metarhia stack.
+  - name: NodeUA
+    url: https://t.me/nodeua
+    about: Node.js Ukraine community.
