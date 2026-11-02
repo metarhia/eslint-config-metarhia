@@ -2,6 +2,10 @@
 
 ## [Unreleased][unreleased]
 
+- Allow `void` returns in promise executors (`no-promise-executor-return` with `allowVoid`)
+- Enforce `no-unexpected-multiline`
+- Remove dependencies `eslint-config-prettier` and `eslint-plugin-prettier`
+
 ## [9.2.1][] - 2026-08-15
 
 - Updated dependencies
