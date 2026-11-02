@@ -2,9 +2,12 @@
 
 ## [Unreleased][unreleased]
 
-- Allow `void` returns in promise executors (`no-promise-executor-return` with `allowVoid`)
-- Enforce `no-unexpected-multiline`
-- Remove dependencies `eslint-config-prettier` and `eslint-plugin-prettier`
+## [9.2.2][] - 2026-11-02
+
+- Allowed `void` returns in promise executors (`no-promise-executor-return` with `allowVoid`)
+- Enforced `no-unexpected-multiline`
+- Removed dependencies `eslint-config-prettier` and `eslint-plugin-prettier`
+- Updated Prettier to ^3.9.10 and metaskills to ^1.0.6
 
 ## [9.2.1][] - 2026-08-15
 
@@ -176,7 +179,8 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
-[unreleased]: https://github.com/metarhia/eslint-config-metarhia/compare/v9.2.1...HEAD
+[unreleased]: https://github.com/metarhia/eslint-config-metarhia/compare/v9.2.2...HEAD
+[9.2.2]: https://github.com/metarhia/eslint-config-metarhia/compare/v9.2.1...v9.2.2
 [9.2.1]: https://github.com/metarhia/eslint-config-metarhia/compare/v9.1.9...v9.2.1
 [9.1.9]: https://github.com/metarhia/eslint-config-metarhia/compare/v9.1.8...v9.1.9
 [9.1.8]: https://github.com/metarhia/eslint-config-metarhia/compare/v9.1.7...v9.1.8
