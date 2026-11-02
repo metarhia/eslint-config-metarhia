@@ -1,0 +1,34 @@
+name: 🐞 Bug report
+description: Report a wrong rule, a crash, or a config that does not load
+labels: [bug]
+body:
+  - type: input
+    attributes:
+      label: Package and Node.js versions
+      description: Package version from package.json, and the output of `node -v`. Supported Node.js is `^20.19.0 || ^22.13.0 || >=24`.
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Platform
+      description: Output of `uname -a`, or the OS name and version.
+  - type: textarea
+    attributes:
+      label: Describe the bug
+      description: What failed, including the ESLint message if there is one.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: To reproduce
+      description: Steps, or a small `eslint.config.js` and source file.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Expected behavior
+      description: What you expected the config to do.
+  - type: textarea
+    attributes:
+      label: Additional context
+      description: Anything else that would help reproduce the problem.
