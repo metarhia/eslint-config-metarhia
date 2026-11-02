@@ -12,7 +12,8 @@ module.exports = {
   'no-unassigned-vars': ['error'],
   'no-useless-assignment': ['error'],
   'array-callback-return': ['error', { allowImplicit: true }],
-  'no-promise-executor-return': ['error'],
+  'no-promise-executor-return': ['error', { allowVoid: true }],
   'no-template-curly-in-string': ['error'],
+  'no-unexpected-multiline': ['error'],
   'no-unreachable-loop': ['error'],
 };
