@@ -2,6 +2,10 @@
 
 ## [Unreleased][unreleased]
 
+- Set `engines.node` to `^20.19.0 || ^22.13.0 || >=24`
+- Run CI on Node.js 20.19.0, 22.13.0, 24, and 26
+- Check JavaScript, TypeScript, JSON, Markdown, and YAML with Prettier
+
 ## [10.0.0][] - 2026-11-02
 
 - Updated ESLint and `@eslint/js` to 10.x
