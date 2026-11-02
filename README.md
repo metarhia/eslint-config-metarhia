@@ -11,10 +11,12 @@ styleguide for [Metarhia](https://github.com/metarhia/) projects.
 
 ## Usage
 
-1. Install ESLint and this config:
+Requires Node.js `>=20.19.0 || ^22.13.0 || >=24`.
+
+1. Install:
 
 ```console
-npm i -D eslint eslint-config-metarhia
+npm i eslint-config-metarhia
 ```
 
 2. Import `eslint-config-metarhia` in `eslint.config.js`, add any extra config objects, and export a single flat-config array.

@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-metarhia",
-  "version": "9.2.2",
+  "version": "10.0.0",
   "author": "Alexey Orlenko <eaglexrlnk@gmail.com>",
   "license": "MIT",
   "description": "ESLint config for Metarhia projects",
@@ -18,7 +18,7 @@
     "rules/"
   ],
   "engines": {
-    "node": ">=18"
+    "node": ">=20.19.0"
   },
   "repository": {
     "type": "git",
@@ -38,8 +38,8 @@
     "fix": "eslint . --fix && prettier --write \"**/*.js\" \"**/*.json\" \"**/*.md\""
   },
   "dependencies": {
-    "@eslint/js": "^9.39.5",
-    "eslint": "^9.39.0",
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.14.0",
     "prettier": "^3.9.10"
   },
   "devDependencies": {

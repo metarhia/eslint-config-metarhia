@@ -2,6 +2,12 @@
 
 ## [Unreleased][unreleased]
 
+## [10.0.0][] - 2026-11-02
+
+- Updated ESLint and `@eslint/js` to 10.x
+- Required Node.js `^20.19.0 || ^22.13.0 || >=24`
+- Enabled `preserve-caught-error` (also part of `eslint:recommended` in ESLint 10)
+
 ## [9.2.2][] - 2026-11-02
 
 - Allowed `void` returns in promise executors (`no-promise-executor-return` with `allowVoid`)
@@ -179,7 +185,8 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
-[unreleased]: https://github.com/metarhia/eslint-config-metarhia/compare/v9.2.2...HEAD
+[unreleased]: https://github.com/metarhia/eslint-config-metarhia/compare/v10.0.0...HEAD
+[10.0.0]: https://github.com/metarhia/eslint-config-metarhia/compare/v9.2.2...v10.0.0
 [9.2.2]: https://github.com/metarhia/eslint-config-metarhia/compare/v9.2.1...v9.2.2
 [9.2.1]: https://github.com/metarhia/eslint-config-metarhia/compare/v9.1.9...v9.2.1
 [9.1.9]: https://github.com/metarhia/eslint-config-metarhia/compare/v9.1.8...v9.1.9
