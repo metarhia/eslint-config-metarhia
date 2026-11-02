@@ -4,9 +4,11 @@
 
 | Version | Supported          |
 | ------- | ------------------ |
-| < 9.x   | :x:                |
-| 9.x     | :white_check_mark: |
 | 10.x    | :white_check_mark: |
+| 9.x     | :white_check_mark: |
+| < 9.x   | :x:                |
+
+Version 10.x requires Node.js `^20.19.0 || ^22.13.0 || >=24`.
 
 ## Reporting a Vulnerability
 
