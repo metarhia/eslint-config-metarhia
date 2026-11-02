@@ -1,8 +1,6 @@
 'use strict';
 
 const { recommended } = require('@eslint/js').configs;
-const configPrettier = require('eslint-config-prettier');
-const pluginPrettier = require('eslint-plugin-prettier');
 const globals = require('./rules/globals.js');
 
 const configMetarhia = {
@@ -11,7 +9,6 @@ const configMetarhia = {
     sourceType: 'commonjs',
     globals,
   },
-  plugins: { prettier: pluginPrettier },
   ignores: ['node_modules/*'],
   rules: {},
 };
@@ -30,7 +27,6 @@ const ruleSections = ruleFiles.map(require);
 const { rules } = configMetarhia;
 
 Object.assign(rules, recommended.rules);
-Object.assign(rules, configPrettier.rules);
 
 for (const section of ruleSections) {
   Object.assign(rules, section);
