@@ -2,3 +2,9 @@ node_modules
 *.log
 .DS_Store
 */skills/metaskills
+.cursor/skills
+.claude/skills
+.windsurf/skills
+.github/skills
+.gemini/skills
+.agents/skills

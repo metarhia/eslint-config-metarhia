@@ -3,3 +3,9 @@ node_modules
 .DS_Store
 test/sql/database*
 */skills/metaskills
+.cursor/skills
+.claude/skills
+.windsurf/skills
+.github/skills
+.gemini/skills
+.agents/skills
