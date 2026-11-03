@@ -4,3 +4,9 @@ node_modules
 */skills/metaskills
 .plan
 .reslop
+.cursor/skills
+.claude/skills
+.windsurf/skills
+.github/skills
+.gemini/skills
+.agents/skills
