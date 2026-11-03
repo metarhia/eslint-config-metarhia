@@ -8,3 +8,5 @@ node_modules
 .github/skills
 .gemini/skills
 .agents/skills
+.reslop
+.plan
