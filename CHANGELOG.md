@@ -2,6 +2,10 @@
 
 ## [Unreleased][unreleased]
 
+## [3.2.3][] - 2026-11-03
+
+- Fix minimatch dependency
+
 ## [9.2.2][] - 2026-11-02
 
 - Allowed `void` returns in promise executors (`no-promise-executor-return` with `allowVoid`)
@@ -179,7 +183,8 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
-[unreleased]: https://github.com/metarhia/eslint-config-metarhia/compare/v9.2.2...HEAD
+[unreleased]: https://github.com/metarhia/eslint-config-metarhia/compare/v3.2.3...HEAD
+[3.2.3]: https://github.com/metarhia/eslint-config-metarhia/compare/v9.2.2...v3.2.3
 [9.2.2]: https://github.com/metarhia/eslint-config-metarhia/compare/v9.2.1...v9.2.2
 [9.2.1]: https://github.com/metarhia/eslint-config-metarhia/compare/v9.1.9...v9.2.1
 [9.1.9]: https://github.com/metarhia/eslint-config-metarhia/compare/v9.1.8...v9.1.9
