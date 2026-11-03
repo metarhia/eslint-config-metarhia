@@ -9,3 +9,5 @@ test/sql/database*
 .github/skills
 .gemini/skills
 .agents/skills
+.reslop
+.plan
