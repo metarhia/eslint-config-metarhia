@@ -2,9 +2,12 @@
 
 ## [Unreleased][unreleased]
 
+## [10.0.1][] - 2026-11-04
+
 - Set `engines.node` to `^20.19.0 || ^22.13.0 || >=24`
-- Run CI on Node.js 20.19.0, 22.13.0, 24, and 26
-- Check JavaScript, TypeScript, JSON, Markdown, and YAML with Prettier
+- Expanded Prettier checks to JavaScript, TypeScript, JSON, Markdown, MDX, YAML, and related extensions
+- Updated package description and keywords
+- Added npm override for `minimatch` ^11.0.4 to resolve globparts amplification
 
 ## [10.0.0][] - 2026-11-02
 
@@ -189,7 +192,8 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
-[unreleased]: https://github.com/metarhia/eslint-config-metarhia/compare/v10.0.0...HEAD
+[unreleased]: https://github.com/metarhia/eslint-config-metarhia/compare/v10.0.1...HEAD
+[10.0.1]: https://github.com/metarhia/eslint-config-metarhia/compare/v10.0.0...v10.0.1
 [10.0.0]: https://github.com/metarhia/eslint-config-metarhia/compare/v9.2.2...v10.0.0
 [9.2.2]: https://github.com/metarhia/eslint-config-metarhia/compare/v9.2.1...v9.2.2
 [9.2.1]: https://github.com/metarhia/eslint-config-metarhia/compare/v9.1.9...v9.2.1
